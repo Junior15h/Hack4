@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    position: relative;
+    box-sizing: border-box;   
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.head{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+}
+
+header{
+    width: 12vh;
+    height: 0.7vh;
+    background-color: black;
+    border-radius: 45px;
+}
+
+main{
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+main h3 {
+    position: absolute;
+    font-size: 2.5vh;
+    font-family: 'Ruda', sans-serif;
+    letter-spacing: 3px;
+    top: 3vh;
+}
+
+main h1{
+    position: absolute;
+    font-size: 11vh;
+    font-family: 'Ruda', sans-serif;
+    COLOR: #B88940;
+    letter-spacing: 15px; 
+    top: 5vh;
+}
+
+main h2 {
+    position: absolute;
+    font-size: 5vh;
+    font-family: 'Ruda', sans-serif;
+    letter-spacing: 2px;
+    top: 18vh;
+}
+
+main p{
+    position: absolute;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 2.5vh;
+    letter-spacing: 3px; 
+    top: 25vh;
+}
+
+.barras {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+div section {
+    position: absolute;
+    width:95%;
+    height: 2.7vh;
+    background-color: #FFBD59;
+}
+
+.barra-1{
+    top:3vh ;
+}
+
+.barra-2 {
+    top: 8vh;
+}
+
+.barra-3 {
+    top: 13vh;
+}
+
+.barra-4 {
+    top: 18vh;
+}
+
+article{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+article img{
+    width: auto;
+    height: 100%;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+label p {
+    position: absolute;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 2.3vh;
+    letter-spacing: 1px;
+    left: 20%;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+footer h1 {
+    position: absolute;
+    font-size: 4vh;
+    font-family: 'Ruda', sans-serif;
+    letter-spacing: 1.5px;
+    top: 21vh;
+    font-family: 'Open Sans', sans-serif;
+    color: #B88940;
+}
+
+footer p{
+    position: absolute;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.7vh;
+    letter-spacing: 1px; 
+    top: 26vh;
+}
